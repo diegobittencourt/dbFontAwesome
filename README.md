@@ -6,4 +6,9 @@ The dbFontAwesome project in the solution creates a DLL that you can use in any 
 
 Font Awesome (see http://fortawesome.github.io/Font-Awesome/) is already embedded. There is no need to install the font on the client machine.
 
-The IconType enum contains a few icon codes.
+The IconType enum contains a all icon codes from Font Awesome (see http://fortawesome.github.io/Font-Awesome/cheatsheet/).
+
+Look IconTypeEditor class, it has a principle to facilitate choosing the correct icon for your application.
+
+Questions or suggestions I am available.
+
