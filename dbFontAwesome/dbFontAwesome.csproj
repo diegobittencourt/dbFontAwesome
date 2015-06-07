@@ -39,6 +39,7 @@
   <ItemGroup>
     <Compile Include="FontAwesome.cs" />
     <Compile Include="IconType.cs" />
+    <Compile Include="IconTypeEditor.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Properties\Resources.Designer.cs">
       <AutoGen>True</AutoGen>

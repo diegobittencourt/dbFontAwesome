@@ -39,9 +39,7 @@ namespace dbFontAwesome
         /// Create Icon
         /// </summary>
         /// <param name="Icon"></param>
-        /// <param name="Width"></param>
-        /// <param name="Height"></param>
-        /// <param name="IconColor"></param>
+        /// <param name="S"></param>
         /// <returns></returns>
         public Bitmap getIcon(IconType Icon, int Width, int Height, Color IconColor)
         {
