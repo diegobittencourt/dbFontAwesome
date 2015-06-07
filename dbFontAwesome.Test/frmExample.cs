@@ -17,6 +17,17 @@ namespace dbFontAwesome.Test
         public frmExample()
         {
             InitializeComponent();
+            this.pbfaExample.IconImage = IconType.Dollar;
+        }
+
+        private void frmExample_Load(object sender, EventArgs e)
+        {
+
+        }
+
+        private void pictureBoxFontAwesome1_Click(object sender, EventArgs e)
+        {
+
         }
 
     }

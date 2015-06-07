@@ -88,7 +88,7 @@ namespace dbFontAwesome
                 Font testFont = GetIconFont((float)adjustedSize);
                 // Test the string with the new size
                 SizeF adjustedSizeNew = g.MeasureString(graphicString, testFont);
-                if (containerWidth > Convert.ToInt32(adjustedSizeNew.Width))
+                if (containerWidth > Convert.ToInt32(adjustedSizeNew.Width) && maxFontSize > Convert.ToInt32(adjustedSizeNew.Height))
                 {
                     // Fits! return it
                     return testFont;
@@ -106,7 +106,7 @@ namespace dbFontAwesome
         ///// <returns>A new System.Drawing.Font instance</returns>
         private Font GetIconFont(float Size)
         {
-            return new Font(Fonts.Families[0], Size, GraphicsUnit.Point);
+            return new Font(Fonts.Families[0], Size, GraphicsUnit.Pixel);
         }
 
         /// <summary>
