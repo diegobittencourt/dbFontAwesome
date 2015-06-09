@@ -32,7 +32,7 @@ namespace dbFontAwesome
         {
             FontAwesome fa = new FontAwesome();
             IconType it = (IconType)Enum.Parse(typeof(IconType), e.Value.ToString());
-            Bitmap bmp = fa.getIcon(it, e.Bounds.Width, e.Bounds.Height, Color.Black);
+            Bitmap bmp = fa.getIcon(it, e.Bounds.Size, Color.Black);
             Rectangle destRect = e.Bounds;
             e.Graphics.DrawImage(bmp, destRect);
         }

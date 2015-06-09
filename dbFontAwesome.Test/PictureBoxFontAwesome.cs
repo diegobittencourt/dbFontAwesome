@@ -45,7 +45,7 @@ namespace dbFontAwesome.Test
         private void UpdateIcon()
         {
             FontAwesome _FontAwesome = new FontAwesome();
-            Bitmap _Image = _FontAwesome.getIcon(this._IconImage, 128, 128, Color.Black);
+            Bitmap _Image = _FontAwesome.getIcon(this._IconImage, new Size(128, 128), Color.Black);
             this.Image = _Image;
         }
 
